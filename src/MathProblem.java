@@ -8,6 +8,7 @@ public class MathProblem {
         int anushaAge=myAge+yourAge+herAge+sushilAge+10;
         int deleepAge=40;
         int revathiAge=100-40;
+        int venkataswamiAge=200;
         System.out.println(anushaAge+deleepAge+revathiAge + "sushil is smart and is the best person in the world and sushanth is " +
                 "stupid");
 
