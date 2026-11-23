@@ -1,7 +1,11 @@
+import java.util.*;
 public class MathProblem {
 
     public static void main(String[]args){
-        int myAge=30;
+
+        Scanner input= new Scanner(System.in);
+        System.out.print("your age: ");
+        int myAge=input.nextInt();
         int herAge=myAge;
         int yourAge=myAge+herAge;
         int sushilAge=myAge+yourAge+herAge+10;
@@ -19,8 +23,10 @@ public class MathProblem {
 
         System.out.println("sushil's balance:" + sushilAcountbalance);
         System.out.println("sushanth's balance:" + sushanthAcountbalance);
+        System.out.println("sushanth's balance:" + sushanthAcountbalance);
 
 
 
     }
 }
+
